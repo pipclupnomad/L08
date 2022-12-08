@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L08_SignUp</title>
+    <style>
+        body {
+            width: fit-content;
+            margin: auto;
+        }
+
+        form {
+            margin: 1rem;
+            border: gray solid thin;
+            padding: 1rem;
+            width: max-content;
+        }
+
+        label {
+            display: inline-block;
+            width: 4rem;
+            font-size: 1rem;
+        }
+
+        input[type=text],
+        input[type=password],
+        input[type=email],
+        input[type=date],
+        input[type=number],
+        select {
+            width: 10rem;
+            margin-left: 10rem;
+            margin-top: 1rem;
+        }
+
+        select {
+            width: 5rem;
+        }
+
+        .gender {
+            display: inline-block;
+            margin-left: 10rem;
+            margin-top: 1rem;
+        }
+
+        .submit-reset {
+            width: fit-content;
+            margin: auto;
+            padding-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sign Up</h1>
+    <hr>
+    <form action="">
+        <div class="container">
+            <div>
+                <label for="">Username: </label>
+                <input type="text" name="user" id="user" placeholder="nhap tai khoan">
+            </div>
+            <div>
+                <label for="">Password: </label>
+                <input type="password" name="pass" id="pass" placeholder="nhap mat ma">
+            </div>
+            <div>
+                <label for="">Email: </label>
+                <input type="email" name="email" id="email" placeholder="nhap email">
+            </div>
+            <div>
+                <label for="">Gender: </label>
+                <div class="gender">
+                    Male <input type="radio" name="male" id="male" checked>
+                    Female <input type="radio" name="female" id="female">
+                </div>
+            </div>
+            <div>
+                <label for="">Location: </label>
+                <select name="location" id="location">
+                    <option value="Saigon">Sai Gon</option>
+                    <option value="Hanoi">Ha Noi</option>
+                    <option value="Hue">Hue</option>
+                    <option value="Da_Nang">Da Nang</option>
+                    <option value="Hoi_An">Hoi An</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Birthday: </label>
+                <input type="date" name="date" id="date" value="1990-01-01">
+            </div>
+            <div>
+                <label for="">Rating: </label>
+                <input type="number" name="rate" id="rate" min="1" max="10" value="5">
+            </div>
+            <div class="submit-reset">
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

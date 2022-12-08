@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L08_Form_Check</title>
+    <style>
+        body {
+            width: 90%;
+            margin: auto;
+        }
+
+        form {
+            width: 25rem;
+            margin: 1rem;
+            border: gray solid thin;
+            padding: 1rem;
+        }
+
+        .form1>div{
+            padding-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Demo Check And Radio Buttons</h1>
+    <hr>
+    <form action="">
+        <div class="form1">
+            <div>
+                <label for="">Please select your favorite genre:</label><br>
+                <input type="radio" name="radio" id="radio" checked> Rock
+                <input type="radio" name="radio" id="radio"> Pop
+                <input type="radio" name="radio" id="radio"> Jazz
+            </div>
+            <div>
+                <label for="">Please select your favoritemusic service(s):</label><br>
+                <input type="checkbox" name="checkbox" id="checkbox" checked> iTunes
+                <input type="checkbox" name="checkbox" id="checkbox"> Last.fm
+                <input type="checkbox" name="checkbox" id="checkbox"> Spotify
+            </div>
+            <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>

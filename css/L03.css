@@ -1,0 +1,12 @@
+h2 {
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    background-color: chocolate;
+    color: cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    padding: 1em;
+}

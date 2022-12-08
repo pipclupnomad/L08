@@ -1,0 +1,95 @@
+* {
+    margin: auto;
+}
+
+body {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+h2 {
+    color: tomato;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    width: fit-content;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: blueviolet;
+    margin: 1rem;
+}
+
+form {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: black solid 1px;
+    width: max-content;
+    box-shadow: 5px 5px 5px pink;
+    border-radius: 30px;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+textarea,
+select {
+    margin: 0.5rem;
+    width: 20rem;
+    height: 1.5rem;
+}
+
+.age {
+    padding: 1rem;
+}
+
+label {
+    display: inline-block;
+    width: 4rem;
+    font-size: 1rem;
+    color: darkgreen;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.submit-reset {
+    width: max-content;
+    margin: auto;
+}
+
+.submit-reset>input {
+    padding: 0.5rem;
+    color: white;
+    border-radius: 30px;
+    margin: 0.5rem;
+    border: gray solid 1px;
+    cursor: pointer;
+    width: 20rem;
+    height: 2.5rem;
+    font-size: 1rem;
+}
+
+input[type=submit] {
+    background-color: green;
+    transition-duration: 0.5s;
+    box-shadow: 3px 3px 3px gray;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+    box-shadow: 3px 3px 3px gray;
+}
+
+input[type=submit]:active {
+    background-color: black;
+    box-shadow: 1px 1px 1px black;
+}
+
+input:required {
+    background-color: lightsalmon;
+}
+
+input::placeholder {
+    color: black;
+}

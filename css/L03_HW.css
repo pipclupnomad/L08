@@ -1,0 +1,60 @@
+* {
+    background-color: rgb(247, 236, 238);
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    font-family: monospace;
+    color: rgb(165, 4, 165);
+    text-transform: capitalize;
+    padding: 2rem 0rem 1rem 1rem;
+    font-size: 2rem;
+}
+
+p {
+    padding: 1rem 1rem 0rem 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+h2 {
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+p::first-letter {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    color: rgb(196, 7, 196);
+}
+
+li {
+    font-size: 1.5rem;
+    color: brown;
+}
+
+h2 {
+    color: rgb(3, 185, 3);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+b {
+    color: red;
+}
+
+.Antartica {
+    color: red;
+    font-weight: bolder;
+}
+
+.Phalaenosis {
+    color: green;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+ul {
+    padding-bottom: 2rem;
+}
